@@ -1,1 +1,68 @@
 @import '~bootstrap/scss/bootstrap';
+@font-face {
+  font-family: Harmond;
+  src: url(./Harmond-SemiBoldCondensed.woff);
+}
+
+.container {
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Harmond;
+}
+
+p, a, li, ul {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body {
+    background-color: #12120F;
+    color: #EFEAB1;
+}
+
+// .headline {
+//     padding: 0;
+//     text-align: center;
+//     border-bottom: 1px solid beige;
+//     justify-content: center;
+// }
+
+.headline {
+    font-size: 20vw;
+    text-transform: uppercase;
+}
+
+.headline-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+
+// Cursor Styles
+html {
+  cursor: none;
+}
+
+.dot-cursor, .circle {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    margin: 0;
+    padding: 0;
+  }
+}

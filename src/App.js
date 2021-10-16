@@ -4,12 +4,15 @@ import { Route } from 'react-router-dom'
 import { v4 as uuid } from 'uuid'
 
 import AuthenticatedRoute from './components/AuthenticatedRoute/AuthenticatedRoute'
-import AutoDismissAlert from './components/AutoDismissAlert/AutoDismissAlert'
-import Header from './components/Header/Header'
+// import AutoDismissAlert from './components/AutoDismissAlert/AutoDismissAlert'
+// import Header from './components/Header/Header'
 import SignUp from './components/auth/SignUp'
 import SignIn from './components/auth/SignIn'
 import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
+import Home from './components/Pages/Home'
+import Headline from './components/Pages/Headline'
+import Cursor from './components/Cursor'
 
 class App extends Component {
   constructor (props) {
@@ -40,11 +43,12 @@ class App extends Component {
   }
 
   render () {
-    const { msgAlerts, user } = this.state
+    const { user } = this.state
+    // const { msgAlerts } = this.state
 
     return (
       <Fragment>
-	      <Header user={user} />
+	      {/* <Header user={user} />
 	      {msgAlerts.map((msgAlert) => (
           <AutoDismissAlert
             key={msgAlert.id}
@@ -54,8 +58,20 @@ class App extends Component {
             id={msgAlert.id}
             deleteAlert={this.deleteAlert}
           />
-        ))}
+        ))} */}
 	      <main className='container'>
+          <Route
+            path='/'
+            render={() => (
+              <Headline />
+            )}
+          />
+          <Route
+            path='/'
+            render={() => (
+              <Home />
+            )}
+          />
 	        <Route
             path='/sign-up'
             render={() => (
@@ -87,6 +103,7 @@ class App extends Component {
             )}
           />
         </main>
+        <Cursor />
       </Fragment>
     )
   }
