@@ -11,7 +11,8 @@
 
 .external {
   overflow: hidden;
-  height: 80vh;
+  height: 70vh;
+  margin-bottom: 2em;
 }
 
 .horizontal-scroll-wrapper {
@@ -42,7 +43,7 @@
 }
 
 .img-wrapper:hover {
- min-height: 65vh;
+ min-height: 60vh;
 }
 
 .slower {
@@ -97,15 +98,47 @@ img {
   max-height: 50vh;
   transition: .5s;
   vertical-align: top;
-  filter: saturate(100%) sepia(30%) hue-rotate(5deg);
+  filter: saturate(90%) sepia(30%) hue-rotate(5deg);
 }
 a:hover img {
   filter: none;
+  cursor: none;
 }
+
+img:hover {
+  cursor: none;
+}
+
 p {
   margin: 0;
 }
 .scroll-info {
   display: flex;
   align-items: center;
+}
+
+.scroll-text {
+  display: none;
+}
+
+@media only screen and (max-width: 995px) {
+  .arrow {
+  display: none;
+  }
+
+  #arrow {
+    content: '\2192';
+    display: inline;
+    text-decoration: none;
+  }
+
+  .scroll-text {
+  display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .img-wrapper:hover {
+  min-height: 20vh;
+  }
 }
