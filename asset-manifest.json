@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/allegory/static/css/main.6f452c76.chunk.css",
-    "main.js": "/allegory/static/js/main.afbc548b.chunk.js",
-    "main.js.map": "/allegory/static/js/main.afbc548b.chunk.js.map",
+    "main.css": "/allegory/static/css/main.1d062c94.chunk.css",
+    "main.js": "/allegory/static/js/main.14269982.chunk.js",
+    "main.js.map": "/allegory/static/js/main.14269982.chunk.js.map",
     "runtime-main.js": "/allegory/static/js/runtime-main.5ed28e10.js",
     "runtime-main.js.map": "/allegory/static/js/runtime-main.5ed28e10.js.map",
     "static/js/2.13238faa.chunk.js": "/allegory/static/js/2.13238faa.chunk.js",
     "static/js/2.13238faa.chunk.js.map": "/allegory/static/js/2.13238faa.chunk.js.map",
     "index.html": "/allegory/index.html",
-    "static/css/main.6f452c76.chunk.css.map": "/allegory/static/css/main.6f452c76.chunk.css.map",
+    "static/css/main.1d062c94.chunk.css.map": "/allegory/static/css/main.1d062c94.chunk.css.map",
     "static/js/2.13238faa.chunk.js.LICENSE.txt": "/allegory/static/js/2.13238faa.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/allegory/static/media/Harmond-SemiBoldCondensed.4f1bc338.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.5ed28e10.js",
     "static/js/2.13238faa.chunk.js",
-    "static/css/main.6f452c76.chunk.css",
-    "static/js/main.afbc548b.chunk.js"
+    "static/css/main.1d062c94.chunk.css",
+    "static/js/main.14269982.chunk.js"
   ]
 }
