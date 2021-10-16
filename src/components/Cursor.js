@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { withRouter } from 'react-router-dom'
 import './../index.scss'
+
 const useMousePosition = () => {
   const [position, setPosition] = useState({
     clientXDot: 0,

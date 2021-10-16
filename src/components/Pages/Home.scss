@@ -90,14 +90,14 @@ h1 {
 .img-wrapper a {
   overflow: hidden;
   display: block;
-  box-shadow: 0 10px 50px black;
+  box-shadow: 0 10px 50px #12120F;
 }
 img {
   max-width: 45vh;
   max-height: 50vh;
   transition: .5s;
   vertical-align: top;
-  filter: saturate(40%) sepia(30%) hue-rotate(5deg);
+  filter: saturate(100%) sepia(30%) hue-rotate(5deg);
 }
 a:hover img {
   filter: none;

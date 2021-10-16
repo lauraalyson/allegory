@@ -13,15 +13,23 @@ class Home extends Component {
     return (
       <>
         <div className="external">
+
           <div className="horizontal-scroll-wrapper">
-            <div className="img-wrapper slower">
+
+            <div className="img-wrapper slower vertical">
               <a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/11605/33068/main-image" target="_blank" rel="noopener noreferrer"><img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/11605/33068/main-image" alt=""/>
               </a>
             </div>
 
+            {/* <div className="img-wrapper faster">
+              <a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image" target="_blank" rel="noopener noreferrer">
+                <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image" alt=""/>
+              </a>
+            </div> */}
+
             <div className="img-wrapper faster">
-              <a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/11130/34226/main-image" target="_blank" rel="noopener noreferrer">
-                <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/11130/34226/main-image" alt=""/>
+              <a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image" target="_blank" rel="noopener noreferrer">
+                <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image" alt=""/>
               </a>
             </div>
 
@@ -49,7 +57,7 @@ class Home extends Component {
               </a>
             </div>
 
-            <div className="img-wrapper faster1">
+            <div className="img-wrapper faster1 vertical">
               <a href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/459093/914088/main-image" target="_blank" rel="noopener noreferrer">
                 <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/459093/914088/main-image" alt=""/>
               </a>
