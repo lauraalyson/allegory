@@ -3,6 +3,11 @@
   font-family: Harmond;
   src: url(./Harmond-SemiBoldCondensed.woff);
 }
+@font-face {
+  font-family: TheNightWatch;
+  src: url(./TheNightWatch.woff);
+}
+
 
 #root {
   height: 100vh;
@@ -28,7 +33,7 @@ a:hover {
 
 body, #root {
     background-color: #12120F;
-    color: #EFEAB1;
+    color: #fffdeb;
 }
 
 .headline {
