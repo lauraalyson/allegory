@@ -1,13 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
 @font-face {
   font-family: Harmond;
-  src: url(./Harmond-SemiBoldCondensed.woff);
+  src: url(./assets/fonts/Harmond-SemiBoldCondensed.woff);
 }
 @font-face {
   font-family: TheNightWatch;
-  src: url(./TheNightWatch.woff);
+  src: url(./assets/fonts/TheNightWatch.woff);
 }
-
 
 #root {
   height: 100vh;
