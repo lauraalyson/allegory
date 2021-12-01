@@ -64,6 +64,7 @@ html {
   z-index: 9999;
   pointer-events: none;
   color: white;
+  mix-blend-mode: exclusion;
 }
 
 @media only screen and (max-width: 600px) {

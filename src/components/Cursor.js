@@ -65,8 +65,8 @@ const Cursor = () => {
     <>
       <div className="dot-cursor">
         <svg
-          width={40}
-          height={40}
+          width={50}
+          height={50}
           viewBox="0 0 50 50"
           style={{
             position: 'absolute',
@@ -75,7 +75,7 @@ const Cursor = () => {
             transform: 'translate(-50%, -50%)'
           }}
         >
-          <circle cx="25" cy="25" r="8" fill="#F2E9D2" />
+          <circle cx="25" cy="25" r="8" fill="#FFFF" />
         </svg>
       </div>
       <div className="circle">
