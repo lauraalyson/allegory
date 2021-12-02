@@ -7,6 +7,14 @@
   font-family: TheNightWatch;
   src: url(./assets/fonts/TheNightWatch.woff);
 }
+@font-face {
+  font-family: Bizantheum;
+  src: url(./assets/fonts/Bizantheum.woff);
+}
+@font-face {
+  font-family: Untitled;
+  src: url(./assets/fonts/test-untitled-sans-regular.woff2);
+}
 
 #root {
   height: 100vh;
@@ -17,22 +25,23 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Harmond;
+  font-family: Bizantheum;
 }
 
 p, a, li, ul {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: uppercase;
+  font-family: Untitled;
+  line-height: 1.4em;
+  font-size: smaller;
   text-decoration: none;
 }
 
 a:hover {
-  color: #F2E9D2;
+  color: #f7f7f796;
 }
 
 body, #root {
     background-color: #12120F;
-    color: #fffdeb;
+    color: #f7f7f7;
 }
 
 .headline {
@@ -40,14 +49,17 @@ body, #root {
     text-transform: uppercase;
 }
 
-.headline-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 10px 0px;
-}
+// .headline-container {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   padding: 10px 0px;
+// }
 
+.artist-info {
+  padding: 2em;
+}
 
 // Cursor Styles
 html {
