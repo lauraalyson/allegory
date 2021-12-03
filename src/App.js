@@ -6,6 +6,7 @@ import Home from './components/Pages/Home'
 import Headline from './components/Pages/Headline'
 import Cursor from './components/Cursor'
 import Main from './components/Pages/Main'
+import ArtistPage from './components/Pages/ArtistPage'
 
 class App extends Component {
   constructor (props) {
@@ -17,7 +18,8 @@ class App extends Component {
     return (
       <Fragment>
         <main className='container'>
-          <Route path='/' render={() => <Main />} />
+          <Route path='/details' render={() => <Main />} />
+          <Route path='/' render={() => <ArtistPage />} />
           <Route path='/home' render={() => <Headline />} />
           <Route path='/home' render={() => <Home />} />
         </main>
