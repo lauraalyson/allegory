@@ -14,7 +14,7 @@ const ArtistPage = () => {
 
           <div className='text-display-title'>
             <h1>Vigee<br />Le Brun</h1>
-            <p style={{ padding: '0em 13em', fontSize: '.7em', lineHeight: '1.4em' }}>The greatest French follower of Caravaggio, Valentin de Boulogne was also one of the outstanding artists in 17th-century Europe. In the years following Caravaggios death, he emerged as one of the most original protagonists of the new, naturalistic painting.</p>
+            <p style={{ padding: '2em 18vw', fontSize: '.7em', lineHeight: '1.5em' }}>The greatest French follower of Caravaggio, Valentin de Boulogne was also one of the outstanding artists in 17th-century Europe. In the years following Caravaggios death, he emerged as one of the most original protagonists of the new, naturalistic painting.</p>
 
             <div className='audio-container'>
               <div className="audio-display">

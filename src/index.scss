@@ -15,6 +15,10 @@
   font-family: Untitled;
   src: url(./assets/fonts/test-untitled-sans-regular.woff2);
 }
+@font-face {
+  font-family: Voyage;
+  src: url(./assets/fonts/Voyage.woff);
+}
 
 #root {
   height: 100vh;
@@ -46,9 +50,9 @@ body, #root {
   color: #EBE7E0;
 }
 
-.artist-info {
-  padding: 2em;
-}
+// .artist-info {
+//   padding: 20vw;
+// }
 
 
 // ArtistPage Styles
@@ -60,7 +64,7 @@ body, #root {
   display: block;
   width: 100%;
   height: auto;
-  opacity: 50%;
+  // opacity: 50%;
 }
 
 .artist-image-display {
@@ -90,22 +94,22 @@ body, #root {
   padding: 3em 0em;
 }
 
-/* The overlay effect - lays on top of the container and over the image */
 .text-display {
   position: absolute;
   bottom: 0;
-  background: #22201c; /* Black see-through */
+  background: #22201c;
   color: #f8f8f8;
   width: 100%;
   height: 60vh;
-  // font-size: 20px;
   padding: 20px;
   padding-top: 7em;
   border-radius: 90% 90% 0px 0px;
   text-align: center;
+  justify-content: center;
   h1 {
-    font-size: 5em;
-    line-height: 1em;
+    font-size: 6em;
+    line-height: .8em;
+    mix-blend-mode: luminosity;
   }
 }
 
